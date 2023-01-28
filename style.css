@@ -11,8 +11,47 @@
 
 .websitetitle {
 	align-items: center;
+  font-size: 64px;
+  color: #00CCCC;
 }
 
-.yolo {
-	
+body {
+  margin: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2b2b2b;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00CCCC;
+  color: white;
+}
+
+.profilephoto {
+  float: left;
+  margin: 10px;
+}
+
+.abouttext {
+  text-align: justify;
 }
