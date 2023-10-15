@@ -41,36 +41,51 @@
 			<p>I was also part of an MIT Summer Wind Quartet that I formed in 2023.</p>
 
 			<p>At the end of my time at MIT, I was awarded the Laya and Jerome B. Wiesner Student Art Award in recognition of contributions to the MIT musical community: as a trumpet player in the MIT Symphony Orchestra, as the leading force in the revival of the IAP orchestra, and as an emerging composer and conductor.</p>
+		</section>
 
-			<h1>Courses taken</h1>
+		<section>
+			<button class="classes_button" onclick="toggleClassesMath()">Courses taken</button> (click to see)
 
-			<p>All courses taken at MIT unless otherwise noted.</p>
+			<div class="classes" id="classes_math">
+				<p>All courses taken at MIT unless otherwise noted.</p>
 
-			<h3>Theory and Composition</h3>
-			<ul>
-				<li>21M.301: Harmony and Counterpoint I (Jonathan Russell, Fall 2019)</li>
-				<li>21M.302: Harmony and Counterpoint II (Peter Child, Spring 2020)</li>
-				<li>21M.303: Writing in Tonal Forms I (Charles Shadle, Fall 2020)</li>
-				<li>21M.304: Writing in Tonal Forms II (Peter Child, Spring 2021)</li>
-				<li>21M.351: Music Composition (Keeril Makan, Spring 2023)</li>
-				<li>21M.500: Advanced Seminar in Music (Peter Child, Fall 2022)</li>
-			</ul>
+				<h3>Theory and Composition</h3>
+				<ul>
+					<li>21M.301: Harmony and Counterpoint I (Jonathan Russell, Fall 2019)</li>
+					<li>21M.302: Harmony and Counterpoint II (Peter Child, Spring 2020)</li>
+					<li>21M.303: Writing in Tonal Forms I (Charles Shadle, Fall 2020)</li>
+					<li>21M.304: Writing in Tonal Forms II (Peter Child, Spring 2021)</li>
+					<li>21M.500: Advanced Seminar in Music (Peter Child, Fall 2022)</li>
+					<li>21M.351: Music Composition (Keeril Makan, Spring 2023)</li>
+				</ul>
 
-			<h3>Performance and Conducting</h3>
-			<ul>
-				<li>21M.421: MIT Symphony Orchestra (Adam Boyles, Spring 2022&ndash;Fall 2022; Evan Ziporyn, Fall 2019)</li>
-				<li>21M.423: Conducting and Score-Reading (Adam Boyles, Fall 2021)</li>
-			</ul>
+				<h3>Performance and Conducting</h3>
+				<ul>
+					<li>21M.421: MIT Symphony Orchestra (Adam Boyles, Spring 2022&ndash;Fall 2022; Evan Ziporyn, Fall 2019)</li>
+					<li>21M.423: Conducting and Score-Reading (Adam Boyles, Fall 2021)</li>
+				</ul>
 
-			<h3>Music History and Culture</h3>
-			<ul>
-				<li>21M.011: Introduction to Western Music (Emily Richmond Pollock and Teresa Neff, Spring 2020)</li>
-				<li>21M.129+159: Beethoven the Classicist/Beethoven the Romantic (Teresa Neff, Spring 2020)</li>
-				<li>21M.235: Baroque and Classical Music (Teresa Neff, Spring 2021)</li>
-				<li>21M.271: Symphony and Concerto (Emily Richmond Pollock, Spring 2022)</li>
-				<li>21M.292: Music of Indonesia (Leslie Tilley, Spring 2022)</li>
-				<li>Harvard Music 175r: Mahler and the Finis Austriae (Federico Cortese and John Hamilton, Fall 2021)</li>
-			</ul>
+				<h3>Music History and Culture</h3>
+				<ul>
+					<li>21M.011: Introduction to Western Music (Emily Richmond Pollock and Teresa Neff, Spring 2020)</li>
+					<li>21M.129+159: Beethoven the Classicist/Beethoven the Romantic (Teresa Neff, Spring 2020)</li>
+					<li>21M.235: Baroque and Classical Music (Teresa Neff, Spring 2021)</li>
+					<li>Harvard Music 175r: Mahler and the Finis Austriae (Federico Cortese and John Hamilton, Fall 2021)</li>
+					<li>21M.271: Symphony and Concerto (Emily Richmond Pollock, Spring 2022)</li>
+					<li>21M.292: Music of Indonesia (Leslie Tilley, Spring 2022)</li>
+				</ul>
+			</div>
+
+			<script>
+				function toggleClassesMath() {
+					var x = document.getElementById("classes_math");
+					if (x.style.display === "block") {
+						x.style.display = "none";
+					} else {
+						x.style.display = "block";
+					}
+				}
+			</script>
 		</section>
 	</body>
 </html>

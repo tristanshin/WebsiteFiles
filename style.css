@@ -66,3 +66,17 @@ body {
 .abouttext {
   text-align: justify;
 }
+
+.classes {
+  display: none;
+}
+
+button.classes_button {
+  background: none;
+  border: none;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
