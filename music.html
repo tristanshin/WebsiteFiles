@@ -46,9 +46,9 @@
 		</section>
 
 		<section>
-			<button class="classes_button" onclick="toggleClassesMath()">Courses taken</button> (click to see)
-
-			<div class="classes" id="classes_math">
+			<details>
+				<summary><strong>Courses taken</strong></summary>
+				
 				<p>All courses taken at MIT unless otherwise noted.</p>
 
 				<h3>Theory and Composition</h3>
@@ -76,18 +76,7 @@
 					<li>21M.129+159: Beethoven the Classicist/Beethoven the Romantic (Spring 2020)</li>
 					<li>21M.011: Introduction to Western Music (Spring 2020)</li>
 				</ul>
-			</div>
-
-			<script>
-				function toggleClassesMath() {
-					var x = document.getElementById("classes_math");
-					if (x.style.display === "block") {
-						x.style.display = "none";
-					} else {
-						x.style.display = "block";
-					}
-				}
-			</script>
+			</details>
 		</section>
 	</body>
 </html>

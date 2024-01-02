@@ -60,9 +60,9 @@
 		</section>
 
 		<section>
-			<button class="classes_button" onclick="toggleClassesMath()">Courses taken</button> (click to see)
+			<details>
+				<summary><strong>Courses taken</strong></summary>
 
-			<div class="classes" id="classes_math">
 				<p>All courses taken at MIT unless otherwise noted.</p>
 
 				<h3>Combinatorics</h3>
@@ -111,18 +111,7 @@
 
 				[1] Was 18.217 when I took it.<br>
 				[2] Was Math 184A when I took it.
-			</div>
-
-			<script>
-				function toggleClassesMath() {
-					var x = document.getElementById("classes_math");
-					if (x.style.display === "block") {
-						x.style.display = "none";
-					} else {
-						x.style.display = "block";
-					}
-				}
-			</script>
+			</details>
 		</section>
 	</body>
 </html>
