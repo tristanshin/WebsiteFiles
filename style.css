@@ -88,3 +88,15 @@ summary {
   font-size: 24px;
   font-weight: bold;
 }
+
+.homepage_row {
+  display: flex;
+}
+
+.homepage_column_left {
+  flex: 25%;
+}
+
+.homepage_column_right {
+  flex: 75%;
+}
