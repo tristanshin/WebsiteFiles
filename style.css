@@ -17,6 +17,11 @@
     padding: 10px 40px;
 }
 
+.websitetitle a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the link inherit the color from .websitetitle */
+}
+
 body {
     margin: 0;
     background-color: var(--bgcolor);
